@@ -1,0 +1,108 @@
+[W 11:39:06.959 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/mnt/datadrive1/anaconda3/envs/pytorch_env/lib/python3.7/site-packages/notebook/notebookapp.py", line 1573, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/mnt/datadrive1/anaconda3/envs/pytorch_env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[I 11:39:06.973 NotebookApp] Serving notebooks from local directory: /mnt/datadrive2/cs231n/assignment2
+[I 11:39:06.973 NotebookApp] The Jupyter Notebook is running at:
+[I 11:39:06.973 NotebookApp] http://localhost:8884/?token=a1e37854ea8b1027b9e96237766f2378498f9d18b16d625c
+[I 11:39:06.973 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:39:06.973 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8884/?token=a1e37854ea8b1027b9e96237766f2378498f9d18b16d625c
+[I 11:39:40.173 NotebookApp] 302 GET / (::1) 0.49ms
+[I 11:39:40.223 NotebookApp] 302 GET /tree? (::1) 0.75ms
+[W 11:40:14.671 NotebookApp] 401 POST /login?next=%2Ftree%3F (::1) 1.27ms referer=http://localhost:8885/login?next=%2Ftree%3F
+[I 11:40:36.226 NotebookApp] 302 POST /login?next=%2Ftree%3F (::1) 1.07ms
+[W 11:40:37.601 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20190109113905 (::1) 13.26ms referer=http://localhost:8885/tree?
+[W 11:40:48.745 NotebookApp] 404 GET /nbextensions/collapsible_headings/main.js?v=20190109113905 (::1) 0.82ms referer=http://localhost:8885/notebooks/PyTorch.ipynb
+[W 11:40:48.746 NotebookApp] 404 GET /nbextensions/gist_it/main.js?v=20190109113905 (::1) 0.67ms referer=http://localhost:8885/notebooks/PyTorch.ipynb
+[W 11:40:48.747 NotebookApp] 404 GET /nbextensions/spellchecker/main.js?v=20190109113905 (::1) 0.67ms referer=http://localhost:8885/notebooks/PyTorch.ipynb
+[W 11:40:48.748 NotebookApp] 404 GET /nbextensions/codefolding/main.js?v=20190109113905 (::1) 0.76ms referer=http://localhost:8885/notebooks/PyTorch.ipynb
+[W 11:40:48.748 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/config_menu/main.js?v=20190109113905 (::1) 0.70ms referer=http://localhost:8885/notebooks/PyTorch.ipynb
+[I 11:40:52.165 NotebookApp] Kernel started: 7cfbd4fc-96dc-48fe-8fe4-67b1b766ca2e
+[I 11:40:52.502 NotebookApp] Adapting to protocol v5.1 for kernel 7cfbd4fc-96dc-48fe-8fe4-67b1b766ca2e
+[W 11:40:52.587 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20190109113905 (::1) 1.19ms referer=http://localhost:8885/notebooks/PyTorch.ipynb
+[I 11:42:52.154 NotebookApp] Saving file at /PyTorch.ipynb
+[I 11:44:52.158 NotebookApp] Saving file at /PyTorch.ipynb
+[I 11:46:52.278 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:24:52.184 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:24:53.889 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:34:53.167 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:36:52.175 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:38:53.177 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:40:52.172 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:41:47.219 NotebookApp] Saving file at /PyTorch.ipynb
+[I 12:42:52.185 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:00:52.232 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:14:52.224 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:16:52.221 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:18:52.228 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:20:52.227 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:22:52.217 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:24:52.230 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:26:01.223 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:26:52.229 NotebookApp] Saving file at /PyTorch.ipynb
+[I 14:30:52.232 NotebookApp] Saving file at /PyTorch.ipynb
+[W 16:05:22.504 NotebookApp] WebSocket ping timeout after 119996 ms.
+[I 16:05:27.508 NotebookApp] Starting buffering for 7cfbd4fc-96dc-48fe-8fe4-67b1b766ca2e:516408d364b04a2f8c9e6991ac47db6c
+[I 16:32:53.976 NotebookApp] Adapting to protocol v5.1 for kernel 7cfbd4fc-96dc-48fe-8fe4-67b1b766ca2e
+[I 16:32:53.976 NotebookApp] Restoring connection for 7cfbd4fc-96dc-48fe-8fe4-67b1b766ca2e:516408d364b04a2f8c9e6991ac47db6c
+[I 17:12:52.814 NotebookApp] Saving file at /PyTorch.ipynb
+[I 17:14:51.741 NotebookApp] Saving file at /PyTorch.ipynb
+[I 17:58:51.746 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:00:52.728 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:02:51.776 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:02:56.735 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:04:51.732 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:06:51.721 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:08:51.729 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:08:54.393 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:12:51.747 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:16:51.734 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:18:51.730 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:20:51.735 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:21:59.081 NotebookApp] Saving file at /PyTorch.ipynb
+[W 18:22:35.632 NotebookApp] 404 GET /nbextensions/nbextensions_configurator/tree_tab/main.js?v=20190109113905 (::1) 1.04ms referer=http://localhost:8885/tree
+[I 18:22:52.758 NotebookApp] Saving file at /PyTorch.ipynb
+[I 18:48:52.729 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:00:52.095 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:02:51.720 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:06:51.730 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:08:43.767 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:10:51.720 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:12:52.690 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:14:52.081 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:16:51.767 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:18:52.713 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:20:51.754 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:21:58.097 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:21:58.494 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:21:58.677 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:22:41.057 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:22:51.727 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:24:51.790 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:26:51.742 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:17.742 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:19.331 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:19.521 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:19.693 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:19.848 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:20.009 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:20.146 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:20.293 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:20.426 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:20.599 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:21.048 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:21.086 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:21.138 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:21.575 NotebookApp] Saving file at /PyTorch.ipynb
+[I 19:28:25.558 NotebookApp] Starting buffering for 7cfbd4fc-96dc-48fe-8fe4-67b1b766ca2e:516408d364b04a2f8c9e6991ac47db6c
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
