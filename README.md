@@ -1,2 +1,2 @@
 # cs231n
-Standford cs231n assignments.
+Stanford cs231n assignments.
